@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的爱好小站 - 首页</title>
+    <style>
+        body {
+            font-family: "Microsoft YaHei", sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #F0F9FF;
+            color: #3a567e;
+        }
+        h1 {
+            color: #1E40AF;
+        }
+        /* 导航条样式（实验要求写法） */
+        .menu {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            background-color: #DBEAFE;
+            border-radius: 8px;
+        }
+        .menu li {
+            display: inline-block;
+            margin: 0 10px;
+            padding: 10px 0;
+        }
+        .menu a {
+            text-decoration: none;
+            color: #1E40AF;
+            font-weight: bold;
+        }
+        .menu a:hover {
+            color: #d52959c9;
+        }
+        h2 {
+            border-left: 4px solid #1E40AF;
+            padding-left: 8px;
+        }
+    </style>
+</head>
+<body id="top">
+    <h1>🎵 我的爱好小站</h1>
+
+    <!-- 导航条：站内相对路径 + 页内锚点 + 邮件链接 -->
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="news.html">爱好动态</a></li>
+            <li><a href="#hobbies">我的爱好</a></li>
+            <li><a href="#week">本周训练计划</a></li>
+            <li><a href="mailto:me@example.com">联系我</a></li>
+        </ul>
+    </nav>
+
+    <p>你好！我是周晴，欢迎来到我的小站。我是一个热爱生活的人，平时最喜欢
+        <strong>唱歌</strong>、<strong>游泳</strong>和<strong>健身</strong>。
+        在这里你可以了解我的爱好、查看我的每周计划，还可以去
+        <a href="news.html">爱好动态</a> 看看最近发生了什么。</p>
+
+    <h2 id="hobbies">我的三大爱好</h2>
+    <ul>
+        <li><strong>唱歌</strong> —— 喜欢流行歌曲，偶尔也去 KTV 一展歌喉</li>
+        <li><strong>游泳</strong> —— 正在自学中 </li>
+        <li><strong>健身</strong> —— 偶尔训练：有氧+无氧</li>
+    </ul>
+
+    <h2 id="week">本周训练计划</h2>
+    <!-- 有序+无序混合嵌套列表（至少两层，子列表写在 li 内部） -->
+    <ol>
+        <li><strong>周一</strong>
+            <ul>
+                <li>上午：游泳学习约 40 分钟</li>
+                <li>晚上：唱歌练声 30 分钟</li>
+            </ul>
+        </li>
+        <li><strong>周二</strong>
+            <ul>
+                <li>晚上：健身 —— 练背</li>
+            </ul>
+        </li>
+        <li><strong>周三</strong>
+            <ul>
+                <li>下午：游泳 （蛙泳）约 35 分钟</li>
+            </ul>
+        </li>
+        <li><strong>周四</strong>
+            <ul>
+                <li>晚上：健身 —— 练腿 </li>
+            </ul>
+        </li>
+        <li><strong>周五</strong>
+            <ul>
+                <li>晚上：KTV 唱歌放松 2 小时</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h2 id="why">为什么坚持这些爱好？</h2>
+    <dl>
+        <dt>唱歌：</dt>
+        <dd>释放压力，让我保持好心情，还能锻炼肺活量。</dd>
+        <dt>游泳：</dt>
+        <dd>全身性运动，对关节友好，减肥塑形效果好。</dd>
+        <dt>健身：</dt>
+        <dd>增强力量，改善体态，让我更有自信。</dd>
+    </dl>
+
+    <p><a href="news.html">→ 去看看我的爱好动态</a></p>
+</body>
+</html>

@@ -1,0 +1,2 @@
+把真实的图片放在这里，命名为 swimming-small.png 和 swimming-big.png，
+或修改 html 中 img 标签的 src 指向你的实际图片。
